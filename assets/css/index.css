@@ -1,10 +1,70 @@
 body{
     background-color: #fff;
     font-family:'Inconsolata', monospace;
+    width: 1440px;
+    height: 1080px;
+    margin: 30px;
+    padding: 40px 77px;
 }
 .menu  { 
     padding: 20px;
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
 }
 .menu h1 {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.button {
+    font-family:'Space Mono', monospace;
+    color: #fff;
+    display: flex;
+   /* margin-top: 64px;*/
+    font-size: 14px;
+    background-color: #333333;
+}
+.container-image{
+    width: 300px;
+    margin: 150px 116px 367px 77px;
+
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 800px;
+    justify-items: end;
+
+    ;
+}
+.h2 {
+    font-size: 38px;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    color: #333333;
+margin: 15px 12px;
+}
+.container-text {
+    justify-content:center;
+    align-items: center;
+
+}
+.button-container{
+    height: 21px;
+    width: 130px;
+    padding: 24px 43px 23px 43px;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center; 
+       
 }

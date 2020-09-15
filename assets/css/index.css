@@ -22,16 +22,29 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
+    
+    
 }
-.button {
+/*.button {
     font-family:'Space Mono', monospace;
     color: #fff;
     display: flex;
-   /* margin-top: 64px;*/
-    font-size: 14px;
+    /* margin-top: 64px;*/
+   /* font-size: 14px;
     background-color: #333333;
+}*/
+.button-container{
+    justify-content: center;
+    align-items: center; 
+}
+.h4{
+    font-family:'Space Mono', monospace;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+
 }
 .container-image{
     width: 300px;
@@ -55,8 +68,8 @@ body{
     font-style: normal;
     font-weight: bold;
     color: #333333;
-margin: 15px 12px;
-margin-bottom: 20px;
+    margin: 15px 12px;
+    margin-bottom: 20px;
 }
 
 .p {
@@ -70,8 +83,7 @@ margin-bottom: 20px;
     font-family:'Space Mono', monospace;
     font-size: 12px;
     justify-content: center;
-    margin-bottom: 0px;
-    margin-left: 300px;
+    margin: 0px;
     width: 250px;
     height: 16px;
 }
@@ -80,13 +92,4 @@ margin-bottom: 20px;
     align-items: center;
     margin-bottom: 200px;
 
-}
-.button-container{
-    height: 21px;
-    width: 130px;
-    padding: 10px 20px 23px 20px;
-    background-color: #333333;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 35px;   
 }

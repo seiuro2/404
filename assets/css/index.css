@@ -36,6 +36,7 @@ body{
     width: 300px;
     margin: 150px 116px 367px 77px;
 
+
 }
 .container{
     display: flex;
@@ -47,24 +48,34 @@ body{
     ;
 }
 .h2 {
+    /*i have a bad news*/
     font-size: 38px;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: bold;
     color: #333333;
 margin: 15px 12px;
+margin-bottom: 20px;
 }
+
+.p {
+    margin-right:80px;
+    justify-content: right;
+    font-size: 16px;
+}
+
 .container-text {
     justify-content:center;
     align-items: center;
+    margin-bottom: 200px;
 
 }
 .button-container{
     height: 21px;
     width: 130px;
-    padding: 24px 43px 23px 43px;
+    padding: 10px 20px 23px 20px;
     background-color: #333333;
     justify-content: center;
     align-items: center; 
-       
+    margin-top: 35px;   
 }

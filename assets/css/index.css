@@ -5,15 +5,13 @@ body{
     height: 1080px;
     margin: 30px;
     padding: 40px 77px;
-    border-radius: 24px;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
 }
 .menu  { 
     padding: 20px;
     font-family: Inconsolata;
     font-style: normal;
     font-weight: bold;
-    font-size: 6px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
@@ -48,8 +46,8 @@ body{
 
 }
 .container-image{
-    width: 300px;
-    margin: 150px 116px 367px 77px;
+    width: 0px;
+    margin: 150px 116px 367px 200px;
 
 
 }
@@ -64,7 +62,7 @@ body{
 }
 .h2 {
     /*i have a bad news*/
-    font-size: 38px;
+    font-size: 50px;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: bold;
@@ -76,13 +74,13 @@ body{
 .p {
     margin-right:80px;
     justify-content: right;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .h3 {
     color: #333333;
     font-family:'Space Mono', monospace;
-    font-size: 12px;
+    font-size: 22px;
     justify-content: center;
     margin-right: 250px;
     margin-left: 250px;

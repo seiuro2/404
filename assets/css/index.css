@@ -1,10 +1,7 @@
 body{
     background-color: #fff;
     font-family:'Inconsolata', monospace;
-    width: 1440px;
-    height: 1080px;
-    margin: 30px;
-    padding: 40px 77px;
+  
 }
 .menu  { 
     padding: 20px;
@@ -36,29 +33,33 @@ body{
     justify-content: center;
     align-items: center; 
 }
-.h4{
+.button{
     font-family:'Space Mono', monospace;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #333333;
+    padding: 15px;
+    border: 0px;
 
 }
 .container-image{
-    width: 0px;
-    margin: 150px 116px 367px 200px;
-
+    width: 50%;
+}
+.container-image img {
+    width: 100%;
 
 }
 .container{
     display: flex;
     justify-content:center;
     align-items: center;
-    width: 800px;
-    justify-items: end;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 
-    ;
+    
 }
 .h2 {
     /*i have a bad news*/
@@ -67,13 +68,9 @@ body{
     font-style: normal;
     font-weight: bold;
     color: #333333;
-    margin: 15px 12px;
-    margin-bottom: 20px;
 }
 
 .p {
-    margin-right:80px;
-    justify-content: right;
     font-size: 25px;
 }
 
@@ -81,15 +78,32 @@ body{
     color: #333333;
     font-family:'Space Mono', monospace;
     font-size: 22px;
-    justify-content: center;
-    margin-right: 250px;
-    margin-left: 250px;
-    width: 250px;
-    height: 16px;
+    position: absolute;
+    bottom: 0px;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    width: 100%;
+    text-align: center;
 }
 .container-text {
     justify-content:center;
     align-items: center;
-    margin-bottom: 200px;
+    width: 50%;
 
+}
+@media(max-width:720px){
+    .container {
+        flex-direction: column;
+    }
+    .container-image{
+        width: 90%;
+    }
+    .container-text {
+        width: 90%;
+    
+    }
+    .h3 {
+        position: static;
+        font-size: 15px;
+    }
 }
